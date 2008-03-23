@@ -1,0 +1,14 @@
+Installation Notes
+------------------
+Directory must be writable by server during installation.
+After installation, it may be made only readable.
+Start installation by navigating to app-setup.php
+You will then bew prompted for your app code and shared secret
+If you are distributing an application, you can save the state of phishtank_config.xml at this point.
+	-For distribution, you will want to send your users to frob-setup.php which
+	will send them on the way to integrating using their PhishTank username
+	to get an api key and all that jazz.
+After the username is entered, the person is redircted to user-setup.php
+This stores their username and api_key.
+Once all that jazz is done, you can go to setup-examples.php and check out
+example usage.
